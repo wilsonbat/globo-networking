@@ -2,7 +2,7 @@
 # OUTPUT
 ##################################################################################
 
-output "tfe_vpcid" {
+output "vpc_id" {
   value       = module.main.vpc_id
   description = "VPC iD"
 
